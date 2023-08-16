@@ -2,16 +2,22 @@
     margin: 0;
     padding: 0;
 }
+header {
+    background-color: aliceblue;
+    height: 50px;
+}
 
 body {
     background-color: #0D1F23;
+    height: 100ph;
+    width: 100pw;
 }
 
 .imgOrdenador {
     display: grid;
     place-items: center;
     justify-content: center;
-    height: 600px;
+    height: 500px;
 
 }
 
@@ -22,8 +28,9 @@ body {
     place-items: center;
     justify-content: center;
 }
-.infoPersonal {
+footer {
     clear: both;
     padding-bottom: 20px;
     background-color: aqua;
+    align-items: center;
 }

@@ -43,15 +43,6 @@ body {
     color: aquamarine;
 }
 
-.contenedor {
-    display: inline-flex;
-    margin-top: 25px;
-    height: 600px;
-    width: 100%;
-    position: fixed;
-    align-items: center;
-
-}
 
 
 .texto {
@@ -59,9 +50,9 @@ body {
     height: 300px;
     display: block;
     padding-left: 20%;
-
-
-
+    
+    
+    
 }
 
 .texto h1 {
@@ -83,7 +74,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     padding-top: 15px;
-
+    
 }
 
 .Compiladores {
@@ -152,11 +143,29 @@ body {
 .bottom a {
     color: aquamarine;
 }
+.contenedor {
+    display: inline-flex;
+    margin-top: 25px;
+    height: 600px;
+    width: 100%;
+    position: fixed;
+    align-items: center;
+}
 
 .contenedor2 {
-    display: inline-flex;
+    display: flex;
     padding-top: 28%;
     position: fixed;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+.Compiladores {
+    display: flex;
+    align-items: center;
+}
+.Lenguajes {
+    display: flex;
+    align-items: center;
 }

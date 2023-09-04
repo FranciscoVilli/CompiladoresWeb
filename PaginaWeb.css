@@ -88,9 +88,9 @@ body {
     height: 170px;
     background-color: transparent;
     margin-top: 20px;
-    border-top: 4px solid aquamarine;
-    border-right: 4px solid aquamarine;
-    border-bottom: 4px solid aquamarine;
+    border-top: 2px solid aquamarine;
+    border-right: 2px solid aquamarine;
+    border-bottom: 2px solid aquamarine;
     border-top-right-radius: 5%;
     border-bottom-right-radius: 5%;
 }
@@ -104,9 +104,9 @@ body {
     height: 170px;
     background-color: transparent;
     margin-top: 20px;
-    border-top: 4px solid aquamarine;
-    border-left: 4px solid aquamarine;
-    border-bottom: 4px solid aquamarine;
+    border-top: 2px solid aquamarine;
+    border-left: 2px solid aquamarine;
+    border-bottom: 2px solid aquamarine;
     border-top-left-radius: 5%;
     border-bottom-left-radius: 5%;
 }
@@ -186,7 +186,8 @@ body {
     font-size: 27px;
     color: aliceblue;
 }
-.about{
+
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,23 +196,28 @@ body {
 }
 
 
-.about-img{
+.about-img {
     position: relative;
     width: 150px;
     height: 100px;
-    display: flex;  
+    display: flex;
     border-radius: 20%;
     justify-content: center;
     align-items: center;
 }
-.about-img img{
+
+.about-img img {
     border-radius: 20%;
     width: 90%;
-    border: .2rem solid var(--main-color);
+    border-left: 2px solid aquamarine;
+    border-right: 2px solid aquamarine;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
     padding: 5px;
 }
 
-.about-content{
+
+.about-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,14 +225,65 @@ body {
     padding: 10px;
     width: 30%;
 }
-.about-content h3{
+
+.about-content h3 {
     padding: 10px;
     font-size: 15px;
     color: aquamarine;
 }
 
-.desarrolladores{
-    font-size:25px ;
+.desarrolladores {
+    font-size: 25px;
     padding: 10px;
     border-bottom: 2px solid aquamarine;
+}
+
+.sectionCompiladores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.sectionCompiladores h1 {
+    color: aquamarine;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+
+.sectionCompiladores p {
+    width: 50%;
+    font-size: 20px;
+}
+
+.sectionCompiladores h2 {
+    color: aquamarine;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color:white;
+}
+.sectionCompiladores h3 {
+    color: aquamarine;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color:white;
+    align-self: flex-start;
+    margin-left: 25%;
+    font-size: 20px;
+}
+.sectionCompiladores img{
+    width: 50%;
+    height: 30%;    
+    margin-top: 15px;
+    border: 2px solid aquamarine;    
+}
+.HistoriaCompiladores{
+    width: 50%;
+    height: 30%;
+    display:inline-flex;
+    gap: 10px;
+}
+.HistoriaCompiladores img{
+    height: 250px;
 }

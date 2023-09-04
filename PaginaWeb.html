@@ -14,7 +14,7 @@
 
         <nav class="navegacion">
             <a href="#" class="active">Home</a>
-            <a href="#">About</a>
+            <a href="#" id="About" data-target="#piePagina">About</a>
         </nav>
 
     </header>
@@ -35,18 +35,18 @@
             src="imagenes/Ilustración_del_concepto_de_mecanografía_de_código___Vector_Gratis-removebg-preview.png"
             alt="">
         <div class="contenedor2">
-            <button class="Compiladores">
+            <button class="Compiladores" id="Compiladores" data-target="#sectionCompiladores">
                 <h2 class="Compi">Compiladores</h2>
             </button>
 
-            <button class="Lenguajes">
+            <button class="Lenguajes" id="Lenguajes">
                 <h2 class="Lengua">Lenguajes de programacion</h2>
             </button>
         </div>
     </section>
 
     <!-- Diseño de la seccion de Compiladores -->
-    <section class="sectionCompiladores">
+    <section class="sectionCompiladores" id="sectionCompiladores">
         <h1>¿Qué es un Compilador?</h1>
         <p>Es un Software que traduce un programa escrito en un lenguaje
             de programación de alto nivel (C / C ++, COBOL, etc.)
@@ -55,8 +55,9 @@
             al lenguaje máquina. Una utilidad conocida como «enlazador» combina
             todos los módulos de lenguaje de máquina necesarios en un programa
             ejecutable que se puede ejecutar en la computadora.</p>
-
+        <img class="imagen-cambiable" src="imagenes/Compilador.png" alt="Compilador">
         <h2>Historia del Compilador</h2>
+
         <p>
             El término «compilador» fue acuñado a principios
             de 1950 por Grace Murray Hopper. La traducción fue vista
@@ -88,6 +89,10 @@
             mayor conocimiento global del programa que les permite realizar determinadas optimizaciones
             del código que resultan muy difíciles para los compiladores
         </p>
+        <div class="HistoriaCompiladores">
+            <img  src="imagenes/HistoriaCompiladores.jpg" alt="historia">
+            <img  src="imagenes/HistoriaCompiladores2.jpg" alt="historia">
+        </div>
 
         <h2>¿En que se diferencia con un interprete?</h2>
         <p>
@@ -141,7 +146,7 @@
             previamente declara o que estén dentro del contexto,
             si implementamos una interface que todos los métodos estén definidos, etc.
             El analizador semántico es el que analiza que todo el programa tenga un significado exacto y que este no
-            pueda fallar en tiempo de ejecución,
+            pueda fallar en tiempo de ejecución.
         </p>
 
 
@@ -159,8 +164,8 @@
 
         <div class="about-img">
             <img src="imagenes/Fran.jpeg" alt="Fran">
-
         </div>
+
         <div class="about-content">
             <h3>Francisco Villalba</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipit ique odit
@@ -183,7 +188,7 @@
 
 
 
-    <footer class="piePagina">
+    <footer class="piePagina" id="piePagina">
         <div class="bottom">
             <img class="imgGitHub"
                 src="imagenes/github-logo-git-hub-icon-with-text-on-white-background-free-vector-removebg-preview.png"
@@ -201,6 +206,7 @@
         </div>
 
     </footer>
+    <script src="PaginaWeb.js"></script>
 
 </body>
 

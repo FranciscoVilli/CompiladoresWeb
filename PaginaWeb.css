@@ -217,15 +217,16 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 10px;
+    width: 30%;
 }
 .about-content h3{
     padding: 10px;
-    font-size: 25px;
+    font-size: 15px;
     color: aquamarine;
 }
 
 .desarrolladores{
-    font-size:30px ;
+    font-size:25px ;
     padding: 10px;
     border-bottom: 2px solid aquamarine;
 }

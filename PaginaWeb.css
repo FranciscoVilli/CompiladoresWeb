@@ -144,6 +144,9 @@ body {
 .bottom a {
     color: aquamarine;
 }
+.bottom a:hover {
+    color: #F39BB0;
+}
 
 .contenedor {
     display: flex;
@@ -211,8 +214,8 @@ body {
     width: 90%;
     border-left: 2px solid aquamarine;
     border-right: 2px solid aquamarine;
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
+    border-top: 2px solid #F39BB0;
+    border-bottom: 2px solid #F39BB0;;
     padding: 5px;
 }
 
@@ -248,7 +251,6 @@ body {
 .sectionCompiladores h1 {
     color: aquamarine;
     padding: 10px;
-    text-decoration: underline;
     text-decoration-color:white;
 }
 
@@ -260,11 +262,10 @@ body {
 .sectionCompiladores h2 {
     color: aquamarine;
     padding: 10px;
-    text-decoration: underline;
     text-decoration-color:white;
 }
 .sectionCompiladores h3 {
-    color: aquamarine;
+    color: #F39BB0;
     padding: 10px;
     text-decoration: underline;
     text-decoration-color:white;
@@ -296,8 +297,8 @@ body {
     padding: 15px;
 }
 .sectionLenguajes img{
-    width: 300px;
-    height: 300px;    
+    width: 200px;
+    height: 200px;    
     margin-top: 15px;
     border: 2px solid aquamarine;    
 }
@@ -308,6 +309,41 @@ body {
 .sectionLenguajes h1 {
     color: aquamarine;
     padding: 10px;
-    text-decoration: underline;
     text-decoration-color:white;
 }
+.sectionLenguajes h3 {
+    color: #F39BB0;
+    padding: 10px;
+    text-decoration: underline;
+    text-decoration-color:white;
+    align-self: flex-start;
+    margin-left: 25%;
+    font-size: 20px;
+}
+.TiposLenguajes{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    gap: 50px;
+    width: 80%;
+}
+.Line{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.TiposLenguajes h2{
+    color: aquamarine;
+    font-size: 30px;
+    font-style: oblique;
+}
+.LinePie{
+    width: 80%;
+    height: 5px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
